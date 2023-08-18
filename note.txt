@@ -1,0 +1,20 @@
+--Backend
+* Bổ sung thêm phần counting view cho model chapter
+* Phân quyền lại toàn bộ backend  (Authorization)
+    - Admin full quyền xem được tất cả các truyện và chapter và user
+    - User Guest chỉ được tương tác với những gì mình upload . 1 manga chỉ được tương tác bởi chính tác giả của nó
+* Bổ sung thêm rating cho truyện và comment cho truyện
+* Tạo relationship cho các bản user,groups,roles
+* Phân quyền theo nhóm và theo cá nhân + phân quyền lv người dùng
+* Bổ sung chức năng đẩy chapter và manga lên cloud
+* Đăng nhập bằng facebook và google
+* thêm chức năng tách pdf thành từng trang image như trên globalcomix (optional)
+* Chức năng truyện yêu thích (Cart). User có thể đăng truyện của mình
+* Thêm button xem ở Manga và Chapter sẽ trỏ thẳng ra trang Front End
+* Làm thêm nút quản lý chương để dẫn vào chapterController √
+* Khi bấm vào tên truyện ở phần quản lý sẽ đẩy ra trang view fe
+* Khi bấm vào tên chapter ở phần quản lý sẽ đẩy ra thẳng trang view fe
+* Route khi đăng nhập sẽ vào trang quản lý truyện với user bình thường
+* viết Cronjob xóa những trường dữ liệu bị trống tên khi create chapter, và xóa những hình ảnh trong folder temp với thời gian sống là 20-30p
+* Xứ lý đổ dữ liệu where ở List category và chapter và mangas
+// Mua source web truyện của anh Hiểu project tutorial để tham khảo 300k
